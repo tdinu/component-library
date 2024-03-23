@@ -30,7 +30,12 @@ export default [
 
       // NEW
       terser(),
-      postcss({ extensions: ['.css'], inject: true, extract: false }),
+      postcss({
+        extensions: ['.css'],
+        inject: true,
+        extract: false,
+        minimize: true,
+      }),
     ],
   },
   {
