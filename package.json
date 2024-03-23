@@ -1,62 +1,62 @@
-{
-  "name": "@tdinu/component-library",
-  "version": "1.0.1",
-  "description": "A personalised UI Library.",
-  "type": "module",
-  "main": "dist/cjs/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tdinu/component-library.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "dev": "rollup -c --bundleConfigAsCjs --watch",
-    "test": "jest --watchAll --verbose"
-  },
-  "keywords": [],
-  "author": "Titiana Dinu",
-  "license": "MIT",
-  "devDependencies": {
-    "@chromatic-com/storybook": "^1.2.25",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@storybook/addon-essentials": "^8.0.4",
-    "@storybook/addon-interactions": "^8.0.4",
-    "@storybook/addon-links": "^8.0.4",
-    "@storybook/addon-onboarding": "^8.0.4",
-    "@storybook/addon-webpack5-compiler-swc": "^1.0.2",
-    "@storybook/blocks": "^8.0.4",
-    "@storybook/react": "^8.0.4",
-    "@storybook/react-webpack5": "^8.0.4",
-    "@storybook/test": "^8.0.4",
-    "@storybook/testing-library": "^0.2.2",
-    "@types/react": "^18.2.69",
-    "@web/rollup-plugin-copy": "^0.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rimraf": "^5.0.5",
-    "rollup": "^4.13.0",
-    "rollup-plugin-copy-merge": "^1.0.2",
-    "rollup-plugin-dts": "^6.1.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
-    "storybook": "^8.0.4",
-    "tslib": "^2.6.2",
-    "typescript": "^5.4.3"
-  },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.2.0"
+  {
+    "name": "@tdinu/component-library",
+    "version": "1.0.2",
+    "description": "A personalised UI Library.",
+    "type": "module",
+    "main": "dist/cjs/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tdinu/component-library.git"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
+    "scripts": {
+      "rollup": "rollup -c --bundleConfigAsCjs",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build",
+      "dev": "rollup -c --bundleConfigAsCjs --watch",
+      "test": "jest --watchAll --verbose"
+    },
+    "keywords": [],
+    "author": "Titiana Dinu",
+    "license": "MIT",
+    "devDependencies": {
+      "@chromatic-com/storybook": "^1.2.25",
+      "@rollup/plugin-commonjs": "^25.0.7",
+      "@rollup/plugin-node-resolve": "^15.2.3",
+      "@rollup/plugin-terser": "^0.4.4",
+      "@rollup/plugin-typescript": "^11.1.6",
+      "@storybook/addon-essentials": "^8.0.4",
+      "@storybook/addon-interactions": "^8.0.4",
+      "@storybook/addon-links": "^8.0.4",
+      "@storybook/addon-onboarding": "^8.0.4",
+      "@storybook/addon-webpack5-compiler-swc": "^1.0.2",
+      "@storybook/blocks": "^8.0.4",
+      "@storybook/react": "^8.0.4",
+      "@storybook/react-webpack5": "^8.0.4",
+      "@storybook/test": "^8.0.4",
+      "@storybook/testing-library": "^0.2.2",
+      "@types/react": "^18.2.69",
+      "@web/rollup-plugin-copy": "^0.5.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "rimraf": "^5.0.5",
+      "rollup": "^4.13.0",
+      "rollup-plugin-copy-merge": "^1.0.2",
+      "rollup-plugin-dts": "^6.1.0",
+      "rollup-plugin-peer-deps-external": "^2.2.4",
+      "rollup-plugin-postcss": "^4.0.2",
+      "storybook": "^8.0.4",
+      "tslib": "^2.6.2",
+      "typescript": "^5.4.3"
+    },
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.2.0"
+    }
   }
-}
